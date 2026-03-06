@@ -16,17 +16,12 @@ body{
 header{
     text-align:center;
     padding:60px;
-    background:rgba(255,255,255,0.7);
-    backdrop-filter: blur(10px);
+    background:rgba(255,255,255,0.8);
 }
 
 header h1{
     font-size:48px;
     margin:0;
-}
-
-header p{
-    font-size:20px;
 }
 
 nav{
@@ -41,7 +36,7 @@ nav{
 nav a{
     text-decoration:none;
     color:#444;
-    font-weight:600;
+    font-weight:bold;
 }
 
 nav a:hover{
@@ -67,12 +62,12 @@ section{
 
 .gallery{
     display:flex;
-    gap:20px;
     flex-wrap:wrap;
+    gap:20px;
 }
 
 .gallery img{
-    width:250px;
+    width:260px;
     border-radius:10px;
     transition:0.3s;
 }
@@ -102,7 +97,6 @@ footer{
 <a href="#about">О хобби</a>
 <a href="#why">Почему нравится</a>
 <a href="#gallery">Галерея</a>
-<a href="#me">Обо мне</a>
 </nav>
 
 <section id="about">
@@ -110,9 +104,11 @@ footer{
 <div class="card">
 <h2>О моём хобби</h2>
 <p>
-Моё хобби — ______. Я начал(а) заниматься этим несколько лет назад.
-Это занятие помогает мне развиваться, узнавать новое и получать удовольствие.
+Моё хобби — фотография. Мне нравится делать красивые фотографии,
+замечать интересные моменты и делиться ими.
 </p>
+
+<img src="https://images.unsplash.com/photo-1502920917128-1aa500764b6c" width="100%">
 </div>
 </div>
 </section>
@@ -122,10 +118,10 @@ footer{
 <div class="card">
 <h2>Почему мне нравится это хобби</h2>
 <ul>
+<li>Можно создавать красивые фотографии</li>
+<li>Развивается креативность</li>
 <li>Это интересно</li>
-<li>Можно научиться новому</li>
-<li>Это помогает расслабиться</li>
-<li>Можно делиться с друзьями</li>
+<li>Можно делиться работами</li>
 </ul>
 </div>
 </div>
@@ -137,30 +133,23 @@ footer{
 <h2>Галерея</h2>
 
 <div class="gallery">
-<img src="photo1.jpg">
-<img src="photo2.jpg">
-<img src="photo3.jpg">
-</div>
+
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+
+<img src="https://images.unsplash.com/photo-1499084732479-de2c02d45fc4">
+
+<img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e">
 
 </div>
-</div>
-</section>
 
-<section id="me">
-<div class="container">
-<div class="card">
-<h2>Обо мне</h2>
-<p>
-Меня зовут ______.  
-Я ученик ______ класса.  
-Моё любимое хобби — ______.
-</p>
 </div>
 </div>
 </section>
 
 <footer>
-<p>© 2026 Мой сайт</p>
+<p>© 2026 Моё хобби</p>
 </footer>
 
 </body>
